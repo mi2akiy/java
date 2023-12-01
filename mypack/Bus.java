@@ -8,6 +8,6 @@ public class Bus extends Vehicle implements Stopable{
     System.out.println("バスの乗客：" + crewNum + "名");
   }
   public void stop(){
-    System.out.println("ここで降ります");
+    System.out.println("次止まります");
   }
 }

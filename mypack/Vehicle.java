@@ -7,5 +7,5 @@ public abstract class Vehicle{
   //   this.crewNum = crewNum;
   // }
   
-  abstract void showCrewNum();
+  public abstract void showCrewNum();
 }

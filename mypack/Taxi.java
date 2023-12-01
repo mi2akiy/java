@@ -1,11 +1,12 @@
 package mypack;
 
 public class Taxi extends Vehicle implements Stopable{
+  // private int crewNum;
   
   public Taxi(int crewNum){
     this.crewNum = crewNum;
   }
-  void showCrewNum(){
+  public void showCrewNum(){
     System.out.println("タクシーの乗客：" + crewNum + "名");
   }
   public void stop(){

@@ -1,5 +1,5 @@
 //インポート
-import mypack.*;
+import mypacgik.*;
 
 
 public class UseVehicle{
