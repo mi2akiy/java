@@ -1,13 +1,14 @@
-class Taxi extends Car{
-  Taxi(){
-    this(9999);
-    System.out.println("Taxi()");
+package mypack;
+
+public class Taxi extends Vehicle implements Stopable{
+  
+  public Taxi(int crewNum){
+    this.crewNum = crewNum;
   }
-  Taxi(int no){
-    super(no);
-    System.out.println("Taxi(int no)");
+  void showCrewNum(){
+    System.out.println("タクシーの乗客：" + crewNum + "名");
   }
-  Taxi(String no){
-    System.out.println("Taxi(String no)");
+  public void stop(){
+    System.out.println("ここで降ります");
   }
 }
